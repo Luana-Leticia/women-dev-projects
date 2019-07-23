@@ -101,7 +101,7 @@
 
 /* Header-end*/
 
-/*Section projects*/
+/*Projects section*/
 
 .section-projects {
   background: rgba(229, 229, 229, 0.71);
@@ -114,8 +114,6 @@
 .section-projects-title {
   color: #2f4076;
   font-size: var(--font-size-big);
-  width: fit-content;
-  border: 3px solid black;
 }
 
 .cards-set {
@@ -123,7 +121,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
-  width: fit-content;
+  margin: 50px 0px 50px 0px;
+  padding: 100px 300px 100px 300px;
   border: 3px solid black;
 }
 
@@ -132,7 +131,8 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: fit-content;
+  padding: 0;
+  margin: 30px 0px;
   border: 3px solid black;
 }
 
@@ -183,4 +183,15 @@
 .card-description {
   color: var(--cards-description-color);
   font-size: var(--font-size-super-extra-small);
+}
+
+.section-contact {
+  background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background: rgba(62, 59, 59, 0.88);
 }
