@@ -68,7 +68,7 @@ body {
 .img-and-text-intro {
   display: flex;
   flex-direction: row;
-  padding: 50px 100px 0PX 100px;
+  padding: 50px 100px 0px 100px;
   justify-content: space-around;
 }
 
@@ -93,4 +93,5 @@ body {
   padding: 10px 100px 50px 100px;
   font-size: var(--font-size-medium);
   color: var(--basic-color);
+  
 }
